@@ -718,9 +718,8 @@ createToggle(nil, "Auto SlideJump")
 end)
 createPillar("Spoofs", 300, function(p)
 createToggleDrop(p, "skins / weapons")
-createToggle(nil, "Unlock all cosmetics")
-createToggle(nil, "Unlock all Wpns (visual)")
-createToggle(nil, "Unlock unobtainable (visual)")
+createToggle(nil, "UnlockAll")
+
 closeToggleDrop()
 
 createToggleDrop(p, "Stats spoof")
